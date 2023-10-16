@@ -34,21 +34,18 @@ colors.pop();
 colors.pop();
 
 console.log(colors);
-// const array1 = [5, 6, 7];
-// array1.shift()
-// array1.shift()
-// array1.shift()
-// console.log(array1)
 
-// const firstElement = array1.shift();
+const array1 = [5, 6, 7, 8, 9, 0];
+array1.shift()
 
-// console.log(array1);
+console.log(array1)
 
+const firstElement = array1.shift();
 
-// console.log(firstElement);
+console.log(array1);
 
 
-
+console.log(firstElement);
 
 
 
@@ -71,5 +68,5 @@ var numbers = [5, 6, 7, 8, 9]
 
 var multiByTwo = numbers.map((i) => i * 3)
 var additionByTwo = numbers.map((i) => i + 3)
-console.log(multiByTwo, "multiByTwo")
-console.log(additionByTwo, "additionByTwo")
+console.log(multiByTwo, "multiByThree")
+console.log(additionByTwo, "additionByThree")
